@@ -1,2 +1,2 @@
 # Arduino-Clone
-Arduino clone with build in 512k EEPROM and clock, designed with Kicad.
+Battery powered Arduino clone with clock and extended 512k EEPROM. This board is designed in Kicad.
