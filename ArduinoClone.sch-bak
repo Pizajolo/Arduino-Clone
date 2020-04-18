@@ -539,4 +539,11 @@ $EndComp
 Wire Wire Line
 	7550 5000 7550 5300
 Connection ~ 7550 5000
+NoConn ~ 6950 2850
+NoConn ~ 6950 2950
+NoConn ~ 6950 3550
+NoConn ~ 6950 3650
+NoConn ~ 6950 4350
+NoConn ~ 6950 4450
+NoConn ~ 6950 4550
 $EndSCHEMATC
