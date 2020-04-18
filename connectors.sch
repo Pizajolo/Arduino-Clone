@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x09 J?
+L Connector_Generic:Conn_01x09 J2
 U 1 1 5E9B3209
 P 4900 3450
-F 0 "J?" H 4980 3492 50  0000 L CNN
+F 0 "J2" H 4980 3492 50  0000 L CNN
 F 1 "Conn_01x09" H 4980 3401 50  0000 L CNN
 F 2 "" H 4900 3450 50  0001 C CNN
 F 3 "~" H 4900 3450 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "~" H 4900 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J1
 U 1 1 5E9B3DBD
 P 4900 2350
-F 0 "J?" H 4980 2342 50  0000 L CNN
+F 0 "J1" H 4980 2342 50  0000 L CNN
 F 1 "Conn_01x04" H 4980 2251 50  0000 L CNN
 F 2 "" H 4900 2350 50  0001 C CNN
 F 3 "~" H 4900 2350 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "~" H 4900 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J?
+L Connector_Generic:Conn_02x03_Odd_Even J4
 U 1 1 5E9B44E9
 P 6350 3500
-F 0 "J?" H 6400 3817 50  0000 C CNN
+F 0 "J4" H 6400 3817 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 6400 3726 50  0000 C CNN
 F 2 "" H 6350 3500 50  0001 C CNN
 F 3 "~" H 6350 3500 50  0001 C CNN
@@ -47,10 +47,10 @@ F 3 "~" H 6350 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J3
 U 1 1 5E9B4FBB
 P 6350 2300
-F 0 "J?" H 6430 2292 50  0000 L CNN
+F 0 "J3" H 6430 2292 50  0000 L CNN
 F 1 "Conn_01x04" H 6430 2201 50  0000 L CNN
 F 2 "" H 6350 2300 50  0001 C CNN
 F 3 "~" H 6350 2300 50  0001 C CNN
