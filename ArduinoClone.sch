@@ -127,4 +127,15 @@ F 12 "Active" H 4500 5500 60  0001 L CNN "Status"
 	1    4300 4300
 	1    0    0    -1  
 $EndComp
+$Comp
+L My_Library:DS1337 U?
+U 1 1 5E9BB10B
+P 2600 3550
+F 0 "U?" H 2499 4231 50  0000 C CNN
+F 1 "DS1337" H 2499 4140 50  0000 C CNN
+F 2 "" H 2500 3950 50  0001 C CNN
+F 3 "" H 2500 3950 50  0001 C CNN
+	1    2600 3550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
