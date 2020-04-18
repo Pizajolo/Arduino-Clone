@@ -106,6 +106,22 @@ S 8950 4050 1450 1850
 U 5E9B2945
 F0 "Connectors" 50
 F1 "connectors.sch" 50
+F2 "MISO" O L 8950 4150 50 
+F3 "SCK" B L 8950 4450 50 
+F4 "RESET" O L 8950 4600 50 
+F5 "VCC" I L 8950 5500 50 
+F6 "MOSI" I L 8950 4300 50 
+F7 "GND" I L 8950 5650 50 
+F8 "Rx" I L 8950 4900 50 
+F9 "Tx" O L 8950 5050 50 
+F10 "SDA" B R 10400 4150 50 
+F11 "D2" B R 10400 4600 50 
+F12 "D3" B R 10400 4750 50 
+F13 "D4" B R 10400 4900 50 
+F14 "D5" B R 10400 5050 50 
+F15 "D6" B R 10400 5200 50 
+F16 "D7" B R 10400 5350 50 
+F17 "D8" B R 10400 5500 50 
 $EndSheet
 $Comp
 L dk_Embedded-Microcontrollers:ATMEGA328-AU U4
@@ -182,4 +198,152 @@ F 3 "" H 9650 3600 50  0001 C CNN
 	1    9650 3600
 	1    0    0    -1  
 $EndComp
+Text Label 8600 4150 2    50   ~ 0
+MISO
+Wire Wire Line
+	8600 4150 8950 4150
+Text Label 6800 3150 2    50   ~ 0
+MISO
+Wire Wire Line
+	6800 3150 6950 3150
+Text Label 8600 4450 2    50   ~ 0
+SCK
+Wire Wire Line
+	8600 4450 8950 4450
+Text Label 8600 4600 2    50   ~ 0
+RESET
+Text Label 8600 5500 2    50   ~ 0
+Vcc
+Text Label 8600 4300 2    50   ~ 0
+MOSI
+Text Label 8600 5650 2    50   ~ 0
+GND
+Wire Wire Line
+	8600 4600 8950 4600
+Wire Wire Line
+	8600 5500 8950 5500
+Wire Wire Line
+	8600 4300 8950 4300
+Wire Wire Line
+	8600 5650 8750 5650
+Text Label 6800 3050 2    50   ~ 0
+MOSI
+Wire Wire Line
+	6800 3050 6950 3050
+Text Label 6750 3250 2    50   ~ 0
+SCK
+Wire Wire Line
+	6750 3250 6950 3250
+Text Label 7500 1550 2    50   ~ 0
+Vcc
+Wire Wire Line
+	7500 1550 7500 1700
+Wire Wire Line
+	7500 1700 7650 1700
+Wire Wire Line
+	7650 1700 7650 1850
+Wire Wire Line
+	7500 1700 7450 1700
+Wire Wire Line
+	7450 1700 7450 1850
+Connection ~ 7500 1700
+Wire Wire Line
+	7500 1700 7500 1850
+Wire Wire Line
+	7500 1850 7550 1850
+Text Label 6950 3950 2    50   ~ 0
+RESET
+Text Label 7500 5000 2    50   ~ 0
+GND
+Wire Wire Line
+	7550 4750 7550 4850
+Wire Wire Line
+	7550 5000 7500 5000
+Wire Wire Line
+	7450 4750 7450 4850
+Wire Wire Line
+	7450 4850 7550 4850
+Connection ~ 7550 4850
+Wire Wire Line
+	7550 4850 7550 5000
+Wire Wire Line
+	7650 4750 7650 4850
+Wire Wire Line
+	7650 4850 7550 4850
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5E9DFB73
+P 8750 5750
+F 0 "#PWR?" H 8750 5550 50  0001 C CNN
+F 1 "GNDPWR" H 8754 5596 50  0000 C CNN
+F 2 "" H 8750 5700 50  0001 C CNN
+F 3 "" H 8750 5700 50  0001 C CNN
+	1    8750 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 5750 8750 5650
+Connection ~ 8750 5650
+Wire Wire Line
+	8750 5650 8950 5650
+Text Label 10550 4150 0    50   ~ 0
+SDA
+Text Label 10550 4600 0    50   ~ 0
+D2
+Text Label 10550 4750 0    50   ~ 0
+D3
+Text Label 10550 4900 0    50   ~ 0
+D4
+Text Label 10550 5050 0    50   ~ 0
+D5
+Text Label 10550 5200 0    50   ~ 0
+D6
+Text Label 10550 5350 0    50   ~ 0
+D7
+Text Label 10550 5500 0    50   ~ 0
+D8
+Text Label 8600 5050 2    50   ~ 0
+Tx
+Text Label 8600 4900 2    50   ~ 0
+Rx
+Wire Wire Line
+	10550 4150 10400 4150
+Wire Wire Line
+	10550 4600 10400 4600
+Wire Wire Line
+	10550 4750 10400 4750
+Wire Wire Line
+	10550 4900 10400 4900
+Wire Wire Line
+	10550 5050 10400 5050
+Wire Wire Line
+	10550 5200 10400 5200
+Wire Wire Line
+	10550 5350 10400 5350
+Wire Wire Line
+	10550 5500 10400 5500
+Wire Wire Line
+	8600 4900 8950 4900
+Wire Wire Line
+	8600 5050 8950 5050
+Text Label 6950 2050 2    50   ~ 0
+D3
+Text Label 6950 2150 2    50   ~ 0
+D4
+Text Label 6950 2450 2    50   ~ 0
+D5
+Text Label 6950 2550 2    50   ~ 0
+D6
+Text Label 6950 2650 2    50   ~ 0
+D7
+Text Label 6950 2750 2    50   ~ 0
+D8
+Text Label 6950 3750 2    50   ~ 0
+SDA
+Text Label 6950 4050 2    50   ~ 0
+Rx
+Text Label 6950 4150 2    50   ~ 0
+Tx
+Text Label 6950 4250 2    50   ~ 0
+D2
 $EndSCHEMATC
