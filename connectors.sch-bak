@@ -84,7 +84,7 @@ VCC
 Text HLabel 6150 2400 0    50   BiDi ~ 0
 SDA
 Text HLabel 6150 2500 0    50   BiDi ~ 0
-SCKI2C
+SCK
 Text HLabel 4700 3050 0    50   BiDi ~ 0
 D2
 Text HLabel 4700 3150 0    50   BiDi ~ 0
