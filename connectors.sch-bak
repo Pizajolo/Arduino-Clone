@@ -103,4 +103,12 @@ Text HLabel 4700 3850 0    50   BiDi ~ 0
 VCC
 Text HLabel 4700 3750 0    50   BiDi ~ 0
 GND
+Text Notes 4500 2100 0    50   ~ 0
+N6 - Serial connector
+Text Notes 5950 2100 0    50   ~ 0
+N5 - I2C connector
+Text Notes 4500 2950 0    50   ~ 0
+N7 - GPIO connector
+Text Notes 5900 3100 0    50   ~ 0
+N8 - SPI connector
 $EndSCHEMATC

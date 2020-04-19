@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L Device:Battery BT1
 U 1 1 5E9ADC39
-P 9650 2200
-F 0 "BT1" H 9758 2246 50  0000 L CNN
-F 1 "Battery 3V" H 9758 2155 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" V 9650 2260 50  0001 C CNN
-F 3 "~" V 9650 2260 50  0001 C CNN
-	1    9650 2200
+P 9100 2800
+F 0 "BT1" H 9208 2846 50  0000 L CNN
+F 1 "Battery 3V" H 9208 2755 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" V 9100 2860 50  0001 C CNN
+F 3 "~" V 9100 2860 50  0001 C CNN
+	1    9100 2800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -448,11 +448,7 @@ F 3 "" H 9650 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9650 2950 9650 3200
-Wire Wire Line
-	9650 2400 9650 2650
-Wire Wire Line
-	9650 2000 9650 1700
+	9650 2950 9650 3000
 Wire Wire Line
 	9650 1700 8600 1700
 Connection ~ 7650 1700
@@ -600,4 +596,18 @@ Wire Notes Line
 	1300 5450 3850 5450
 Text Notes 1300 5450 0    50   ~ 0
 N4 - Connectors
+Wire Wire Line
+	9650 1700 9650 2350
+Wire Wire Line
+	9650 2350 9100 2350
+Wire Wire Line
+	9100 2350 9100 2600
+Connection ~ 9650 2350
+Wire Wire Line
+	9650 2350 9650 2650
+Wire Wire Line
+	9100 3000 9650 3000
+Connection ~ 9650 3000
+Wire Wire Line
+	9650 3000 9650 3200
 $EndSCHEMATC
